@@ -1,0 +1,28 @@
+{
+  "name": "vosk_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon http_serv.js"
+  },
+  "keywords": [
+    "voice",
+    "node",
+    "vosk",
+    "vosk_bot"
+  ],
+  "type": "module",
+  "author": "Eugeny Romanovsky <rykedfel@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "mic": "^2.1.2",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
